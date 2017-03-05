@@ -2,15 +2,16 @@
 	padding: 15px;
 }
 
-.example-radio-group {
-  display: inline-flex;
-  flex-direction: column;
+.red-color{
+	color: red;
 }
 
-.example-radio-button {
-  margin: 5px;
+mat-slider-horizontal {
+    width:100%;
 }
 
-.example-selected-value {
-  margin: 15px 0;
+label {
+    font-weight:bold;
+    margin:1.5em 0;
+    display:block;
 }

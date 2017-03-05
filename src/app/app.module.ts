@@ -7,6 +7,7 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { ScreenshotService } from './home/screenshot.service';
 import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
@@ -25,7 +26,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     AppRoutingModule,
     MaterialModule
   ],
-  providers: [ ],
+  providers: [ ScreenshotService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
